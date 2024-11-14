@@ -10,7 +10,6 @@ sampling_rate = 44100  # Hz
 block_duration = 0.05  # Block size in seconds (smaller block size for lower latency)
 db_threshold_write = 20  # Threshold to trigger pyautogui
 
-# Global variable to store the current decibel value
 current_decibels = 0.0
 
 def rms_value(audio_data):
